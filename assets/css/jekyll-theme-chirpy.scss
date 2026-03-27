@@ -1,41 +1,53 @@
----
----
+/* 전체 배경 (베이지 톤) */
+html, body {
+  background: #F5F1E8 !important;
+  color: #2F2F2F !important;
+}
 
-/* prettier-ignore */
-@use 'main
-{%- if jekyll.environment == 'production' -%}
-  .bundle
-{%- endif -%}
-';
-
-/* append your custom style below */
-
+/* 사이드바 (카키 포인트) */
 #sidebar {
   background: #27391C !important;
 }
 
-html,
-body {
-  background: #18230F !important;
-}
-
+/* 메인 영역 */
 #main-wrapper,
 #main,
 #topbar-wrapper {
-  background: #18230F !important;
+  background: #F5F1E8 !important;
 }
 
+/* 카드 */
 .post-preview,
 .card,
 .panel-wrapper > div {
-  background: #1f2a17 !important;
-  border-radius: 12px;
+  background: #FFFFFF !important;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+/* 텍스트 */
+h1, h2, h3, h4 {
+  color: #18230F !important;
+}
+
+/* 링크 (포인트 컬러) */
 a {
-  color: #A3B18A !important;
+  color: #3A5A40 !important;
 }
 
 a:hover {
-  color: #DAD7CD !important;
+  color: #588157 !important;
+}
+
+/* 버튼 느낌 */
+.btn {
+  background: #3A5A40 !important;
+  color: #fff !important;
+  border-radius: 8px;
+}
+
+/* 사이드바 메뉴 hover */
+#sidebar .nav-item:hover {
+  background: rgba(255,255,255,0.1);
+  border-radius: 8px;
 }
