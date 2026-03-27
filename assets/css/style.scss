@@ -1,0 +1,24 @@
+---
+---
+
+:root {
+  --main-bg: #18230F;
+  --sidebar-bg: #27391C;
+  --card-bg: #1f2a17;
+
+  --text-color: #F5F5F5;
+  --text-muted-color: #A3B18A;
+
+  --link-color: #A3B18A;
+  --link-hover-color: #DAD7CD;
+}
+
+/* 카드 hover 효과 */
+.post-preview {
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.post-preview:hover {
+  transform: translateY(-3px);
+}
