@@ -1,0 +1,41 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+#sidebar {
+  background: #27391C !important;
+}
+
+html,
+body {
+  background: #18230F !important;
+}
+
+#main-wrapper,
+#main,
+#topbar-wrapper {
+  background: #18230F !important;
+}
+
+.post-preview,
+.card,
+.panel-wrapper > div {
+  background: #1f2a17 !important;
+  border-radius: 12px;
+}
+
+a {
+  color: #A3B18A !important;
+}
+
+a:hover {
+  color: #DAD7CD !important;
+}
