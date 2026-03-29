@@ -29,7 +29,6 @@ LMS 출결 관리 시스템을 개발하는 과정에서
 
 ## 🧱 기존 구조 (Before)
 
-![before](/assets/img/attendance-before.png)
 
 출결 상태가 DB에서 영어 값으로 저장되고  
 별도의 처리 없이 그대로 사용자 화면에 출력되는 구조였다.
