@@ -1,0 +1,53 @@
+/* 🌿 베이지 배경 */
+body {
+  background-color: #f5f1e8;
+}
+
+/* 📦 카드 */
+.post-preview,
+.card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #e5dfd2;
+}
+
+/* 🟢 제목 */
+.post-title,
+h1, h2, h3 {
+  color: #2f3e34;
+}
+
+/* 🌱 링크 강조 */
+a {
+  color: #3f5c4a;
+}
+
+a:hover {
+  color: #6b8f71;
+}
+
+/* 📌 사이드바 */
+#sidebar {
+  background-color: #2f3e34;
+}
+
+#sidebar a {
+  color: #e8e3d9;
+}
+
+/* 🟡 태그 */
+.tag {
+  background-color: #e8e3d9;
+  color: #2f3e34;
+}
+
+/* 🔘 버튼 */
+.btn {
+  background-color: #3f5c4a;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #2f3e34;
+}
